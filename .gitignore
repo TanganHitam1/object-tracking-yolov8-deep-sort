@@ -1,0 +1,7 @@
+*.mp4
+*.pt
+*.zip
+data/
+*.pb
+# *.pth
+/model_data
