@@ -30,7 +30,8 @@ frame_id = 0
 detection_threshold = 0.5
 while ret:
 
-    results = model(frame)
+    # results = model(frame)
+    results = model.predict(frame, classes=0)
 
     for result in results:
         print(type(result))

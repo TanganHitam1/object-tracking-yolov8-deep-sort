@@ -11,7 +11,7 @@ class Tracker:
     tracks = None
 
     def __init__(self):
-        max_cosine_distance = 0.15
+        max_cosine_distance = 0.2
         nn_budget = None
 
         encoder_model_filename = 'model_data/mars-small128.pb'
